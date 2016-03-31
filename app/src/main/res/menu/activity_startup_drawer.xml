@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_trans"
+            android:icon="@drawable/transport"
+            android:title="Transport" />
+        <item
+            android:id="@+id/nav_friends"
+            android:icon="@drawable/friends"
+            android:title="My Friends" />
+        <item
+            android:id="@+id/nav_ambu"
+            android:icon="@drawable/ambulance"
+            android:title="Ambulances" />
+        <item
+            android:id="@+id/nav_atm"
+            android:icon="@drawable/atm"
+            android:title="Mobile ATMs" />
+        <item
+            android:id="@+id/nav_cabs"
+            android:icon="@drawable/cabs"
+            android:title="Cabs" />
+    </group>
+
+    <item android:title="Account">
+        <menu>
+            <item
+                android:id="@+id/nav_set"
+                android:icon="@drawable/settings"
+                android:title="Settings" />
+            <item
+                android:id="@+id/nav_sign"
+                android:icon="@drawable/signout"
+                android:title="Sign Out" />
+        </menu>
+    </item>
+
+</menu>

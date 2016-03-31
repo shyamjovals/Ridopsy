@@ -1,0 +1,39 @@
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:weightSum="5"
+    android:background="@drawable/iruthiimage"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical">
+
+
+        <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:map="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:id="@+id/map"
+            android:name="com.google.android.gms.maps.SupportMapFragment"
+            android:layout_width="match_parent"
+            android:layout_height="390dp"
+            tools:context="com.example.prasanna.prot1.MapsActivity"
+            android:layout_below="@+id/email"
+            android:layout_weight="4.12" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/details"
+        android:textSize="20dp"
+        android:layout_weight="1"
+        android:textColor="#FFFFFFFF" />
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View"
+        android:layout_gravity="bottom|center_horizontal"
+        android:id="@+id/check"
+        android:background="#0c46c3"
+        android:textColor="#FFFFFFFF" />
+</LinearLayout>

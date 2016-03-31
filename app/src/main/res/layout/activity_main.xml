@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/front2"
+    tools:context="com.example.prasanna.prot1.MainActivity"
+    >
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DIVE IN"
+        android:id="@+id/divein"
+        android:layout_alignParentBottom="true"
+        android:onClick="divein"
+        android:background="#FFFFFFFF"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:textSize="25dp"
+        android:height="60dp"
+        android:typeface="monospace" />
+</RelativeLayout>
